@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+/*Global Style*/
+.container{
+    padding: 50px 0;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+/*Navigation*/
+.nav{
+    height: 70px;
+}
+
+.nav-row{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.nav-logo-img{
+    width: 20%;
+}
+
+.nav-link{
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(72, 72, 200);
+    padding: 2px;
+    text-decoration: none;
+}
+/*About*/
+.about-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding: 0 16px;
+    color: rgb(72, 72, 200);
+}
+
+.about-para{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/*Weeks*/
+.week-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding: 0 16px;
+    color: rgb(72, 72, 200);
+}
+
+.week-para{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.fa-js{
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.week-subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    padding: 15px 0;
+}
+
+/*Footer*/
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 12px;
+    color: rgb(72, 72, 200);
+}
