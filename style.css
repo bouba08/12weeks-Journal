@@ -89,9 +89,86 @@
     font-size: 28px;
     padding: 15px 0;
 }
+/*Knowledge*/
+.knowledge-title,
+.knowledge-subtitle{
+    padding: 10px 0;
+}
+
+.knowledge-stars{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+}
+
+.fa-star,
+.fa-star-half-stroke{
+    margin: 8px 0;
+    animation: star 5s infinite;
+}
+
+@keyframes star{
+    0%{
+        margin-right: 0;
+        font-size: 12px;
+    }
+
+    25%{
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    50%{
+        margin-right: 45px;
+        font-size: 18px;
+    }
+
+    75%{
+        margin-right: 75px;
+        font-size: 24px;
+    }
+
+    100%{
+        margin-right: 106px;
+        font-size: 30px;
+    }
+}
+/*Contact*/
+.contact-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding: 25px 0;
+    color: rgb(72, 72, 200);
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0;
+}
+
+.form-item-label{
+    padding-bottom: 10px;
+}
+
+.form-item-input{
+    width: 33%;
+}
+
+.contact-form-submit{
+    padding-top: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 6px;
+    border: none;
+    background-color: rgb(72, 72, 200);
+}
 
 /*Footer*/
 footer{
+    position:static;
     height: 50px;
     width: 100%;
     background-color: black;
@@ -102,8 +179,9 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
     text-decoration: none;
     padding-top: 12px;
     color: rgb(72, 72, 200);
 }
+
