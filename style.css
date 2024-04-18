@@ -209,7 +209,7 @@ footer{
     background-color: black;
 }
 
-.footer-link{
+.footer-span{
     display: flex;
     align-items: center;
     justify-content: center;
